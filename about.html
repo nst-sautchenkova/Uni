@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Uni.ru</title>
+    <meta name="description" content="Новостройки Санкт-петербурга"> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" /> 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap-select.min.js"></script>
+    
+    <script src="assets/js/swiper.min.js"></script>
+
+	<script src="assets/js/aos.js"></script>  
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css" /> 
+   
+</head>
+	<body>
+       
+		<div id="preloader" class="preloader">
+            <div class="logo header__logo">
+                <a href="#"><img src="assets/images/logo.svg" alt=""/></a>
+            </div>
+            <div class="loader">
+                <div class="loader__bar"></div>
+            </div>
+        </div><!--/preloader-->
+        
+        <div class="page">
+            <header class="header page__header">
+                <div class="container">
+                    <div class="flex flex_j_space-between">
+                    	<div class="logo header__logo">
+                            <a href="#"><img src="assets/images/logo.svg" alt=""/></a>
+                        </div>
+                        <nav class="nav header__nav">
+                            <div class="trigger-menu">
+                                <div class="hamburger-menu">
+                                    <div class="hamburger-menu__bar"></div>
+                                    <div class="hamburger-menu__bar"></div>
+                                    <div class="hamburger-menu__bar"></div>
+                                </div>
+                            </div>
+                            <ul class="menu header__menu">
+                                <li class="menu__item"><a href="#" class="menu__link">Купить</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Ипотека</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Трейд ин</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Переуступка</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Журнал</a></li>
+                            </ul>
+                        </nav>
+                        <div class="contacts header__contacts">
+                            <a href="tel:+88002003000">+ 8800 200 3000</a>
+                        </div>
+                    </div>
+                </div><!-- .container -->
+            </header>
+            
+            <main class="page__main">
+                <div class="back-page container">
+                	<a href="#">
+						<svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.8076 20.1924L3.61522 11L12.8076 1.80761" stroke="#00B289" stroke-width="4"/>
+                        </svg>
+                        НАЗАД 
+                    </a>
+                </div>
+                
+                <section class="about-page">
+                	<div class="container">
+                    	<div class="about-slider">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                    	<div class="img"><img src="assets/images/img_6.jpg" alt=""/></div>
+                                    </div><!-- .swiper-slide -->
+                                    <div class="swiper-slide">
+                                    	<div class="img"><img src="assets/images/img_7.jpg" alt=""/></div>
+                                    </div><!-- .swiper-slide -->
+                                    <div class="swiper-slide">
+                                    	<div class="img"><img src="assets/images/img_6.jpg" alt=""/></div>
+                                    </div><!-- .swiper-slide -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+							<script>
+								var swiper = new Swiper('.about-slider .swiper-container', {
+									autoplay: {
+										delay: 2500,
+										disableOnInteraction: false,
+									},
+									pagination: {
+										el: '.about-slider .swiper-pagination',
+										clickable: true,
+									},
+								});
+                            </script>
+                        </div><!-- /about-slider -->
+                        
+                        <div class="about about-page__about">
+                            <div class="section__title">
+                                <h3>ЖК «Красногорский»</h3>
+                            </div>
+                            <div class="about__row">
+                            	<div class="about__text">
+                                	<div class="items">
+                                    	<h4>Расположение</h4>
+                                        <div class="tit">Нахабино, улица Советская</div>
+                                        <div class="items-row">
+                                            <div class="item flex">
+                                                <div class="tit">Волоколамская</div>
+                                                <div class="mark">
+                                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.90539 5.25659C0.90539 5.00359 1.12067 4.65297 1.35808 4.43847H0.236653C0.174265 4.43776 0.114642 4.41517 0.0704525 4.37551C0.0262627 4.33584 0.000988557 4.28222 0 4.22603L0 3.64166C0 3.52479 0.107639 3.42716 0.236653 3.42716H1.89628C2.28485 2.02467 2.9742 0.486747 4.43992 0H10.5601C12.0258 0.486747 12.7159 2.02467 13.1037 3.42648H14.7633C14.8924 3.42648 15 3.5241 15 3.64098V4.22535C15 4.34153 14.8924 4.43847 14.7633 4.43847H13.6641C13.9007 4.65297 14.0946 5.00359 14.0946 5.25659V10.5324C14.0946 10.7854 13.858 10.9999 13.5564 10.9999H11.4655C11.3252 11.0021 11.1897 10.9542 11.0887 10.8665C10.9876 10.7789 10.9293 10.6587 10.9265 10.5324V9.462C8.64836 9.24787 6.35164 9.24787 4.07349 9.462V10.5324C4.07349 10.7854 3.83684 10.9999 3.53453 10.9999H1.44435C1.30409 11.0021 1.16859 10.9542 1.06755 10.8665C0.966515 10.7789 0.908198 10.6587 0.90539 10.5324V5.25659ZM5.94839 7.32045H9.05161C9.15925 7.32045 9.24551 7.39814 9.24551 7.49576V8.05951C9.24581 8.08258 9.24102 8.10548 9.2314 8.12686C9.22178 8.14825 9.20753 8.1677 9.18949 8.18408C9.17144 8.20046 9.14996 8.21344 9.12628 8.22227C9.10261 8.2311 9.07723 8.2356 9.05161 8.23551H5.94839C5.86213 8.23551 5.77587 8.15713 5.77587 8.0602V7.49576C5.77587 7.39814 5.86213 7.32045 5.94839 7.32045ZM4.39641 0.778932C3.03909 1.22649 2.67266 3.3481 3.21085 3.93247C6.05603 4.34153 8.94397 4.34153 11.7891 3.93247C12.3273 3.3481 11.9609 1.22649 10.6036 0.778932C8.53479 0.739745 6.46598 0.739745 4.39717 0.778932H4.39641ZM12.7373 5.6849H11.2067C11.0563 5.6849 10.9051 5.82102 10.9051 5.95715V6.59996C10.9051 6.75602 11.0563 6.8722 11.2067 6.8722H12.7373C12.9098 6.8722 13.0388 6.75533 13.0388 6.59996V5.95715C13.0373 5.8855 13.005 5.81717 12.9488 5.76643C12.8926 5.71569 12.8168 5.68648 12.7373 5.6849ZM2.26347 5.6849H3.79332C3.96585 5.6849 4.09486 5.82102 4.09486 5.95715V6.59996C4.09486 6.75602 3.96509 6.8722 3.79332 6.8722H2.26271C2.18329 6.87045 2.10769 6.84116 2.05165 6.79044C1.99562 6.73972 1.96348 6.67149 1.96193 6.59996V5.95715C1.96193 5.82102 2.11308 5.6849 2.26347 5.6849Z" fill="#8D9A9F"/>
+                                                    </svg>
+                                                    19 мин.
+                                                </div>
+                                            </div>
+                                            <div class="item flex">
+                                                <div class="tit">Тушинская</div>
+                                                <div class="mark">
+                                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.90539 5.25659C0.90539 5.00359 1.12067 4.65297 1.35808 4.43847H0.236653C0.174265 4.43776 0.114642 4.41517 0.0704525 4.37551C0.0262627 4.33584 0.000988557 4.28222 0 4.22603L0 3.64166C0 3.52479 0.107639 3.42716 0.236653 3.42716H1.89628C2.28485 2.02467 2.9742 0.486747 4.43992 0H10.5601C12.0258 0.486747 12.7159 2.02467 13.1037 3.42648H14.7633C14.8924 3.42648 15 3.5241 15 3.64098V4.22535C15 4.34153 14.8924 4.43847 14.7633 4.43847H13.6641C13.9007 4.65297 14.0946 5.00359 14.0946 5.25659V10.5324C14.0946 10.7854 13.858 10.9999 13.5564 10.9999H11.4655C11.3252 11.0021 11.1897 10.9542 11.0887 10.8665C10.9876 10.7789 10.9293 10.6587 10.9265 10.5324V9.462C8.64836 9.24787 6.35164 9.24787 4.07349 9.462V10.5324C4.07349 10.7854 3.83684 10.9999 3.53453 10.9999H1.44435C1.30409 11.0021 1.16859 10.9542 1.06755 10.8665C0.966515 10.7789 0.908198 10.6587 0.90539 10.5324V5.25659ZM5.94839 7.32045H9.05161C9.15925 7.32045 9.24551 7.39814 9.24551 7.49576V8.05951C9.24581 8.08258 9.24102 8.10548 9.2314 8.12686C9.22178 8.14825 9.20753 8.1677 9.18949 8.18408C9.17144 8.20046 9.14996 8.21344 9.12628 8.22227C9.10261 8.2311 9.07723 8.2356 9.05161 8.23551H5.94839C5.86213 8.23551 5.77587 8.15713 5.77587 8.0602V7.49576C5.77587 7.39814 5.86213 7.32045 5.94839 7.32045ZM4.39641 0.778932C3.03909 1.22649 2.67266 3.3481 3.21085 3.93247C6.05603 4.34153 8.94397 4.34153 11.7891 3.93247C12.3273 3.3481 11.9609 1.22649 10.6036 0.778932C8.53479 0.739745 6.46598 0.739745 4.39717 0.778932H4.39641ZM12.7373 5.6849H11.2067C11.0563 5.6849 10.9051 5.82102 10.9051 5.95715V6.59996C10.9051 6.75602 11.0563 6.8722 11.2067 6.8722H12.7373C12.9098 6.8722 13.0388 6.75533 13.0388 6.59996V5.95715C13.0373 5.8855 13.005 5.81717 12.9488 5.76643C12.8926 5.71569 12.8168 5.68648 12.7373 5.6849ZM2.26347 5.6849H3.79332C3.96585 5.6849 4.09486 5.82102 4.09486 5.95715V6.59996C4.09486 6.75602 3.96509 6.8722 3.79332 6.8722H2.26271C2.18329 6.87045 2.10769 6.84116 2.05165 6.79044C1.99562 6.73972 1.96348 6.67149 1.96193 6.59996V5.95715C1.96193 5.82102 2.11308 5.6849 2.26347 5.6849Z" fill="#8D9A9F"/>
+                                                    </svg>
+                                                    20 мин.
+                                                </div>
+                                            </div>
+                                            <div class="item flex">
+                                                <div class="tit">Войковская</div>
+                                                <div class="mark">
+                                                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.90539 5.25659C0.90539 5.00359 1.12067 4.65297 1.35808 4.43847H0.236653C0.174265 4.43776 0.114642 4.41517 0.0704525 4.37551C0.0262627 4.33584 0.000988557 4.28222 0 4.22603L0 3.64166C0 3.52479 0.107639 3.42716 0.236653 3.42716H1.89628C2.28485 2.02467 2.9742 0.486747 4.43992 0H10.5601C12.0258 0.486747 12.7159 2.02467 13.1037 3.42648H14.7633C14.8924 3.42648 15 3.5241 15 3.64098V4.22535C15 4.34153 14.8924 4.43847 14.7633 4.43847H13.6641C13.9007 4.65297 14.0946 5.00359 14.0946 5.25659V10.5324C14.0946 10.7854 13.858 10.9999 13.5564 10.9999H11.4655C11.3252 11.0021 11.1897 10.9542 11.0887 10.8665C10.9876 10.7789 10.9293 10.6587 10.9265 10.5324V9.462C8.64836 9.24787 6.35164 9.24787 4.07349 9.462V10.5324C4.07349 10.7854 3.83684 10.9999 3.53453 10.9999H1.44435C1.30409 11.0021 1.16859 10.9542 1.06755 10.8665C0.966515 10.7789 0.908198 10.6587 0.90539 10.5324V5.25659ZM5.94839 7.32045H9.05161C9.15925 7.32045 9.24551 7.39814 9.24551 7.49576V8.05951C9.24581 8.08258 9.24102 8.10548 9.2314 8.12686C9.22178 8.14825 9.20753 8.1677 9.18949 8.18408C9.17144 8.20046 9.14996 8.21344 9.12628 8.22227C9.10261 8.2311 9.07723 8.2356 9.05161 8.23551H5.94839C5.86213 8.23551 5.77587 8.15713 5.77587 8.0602V7.49576C5.77587 7.39814 5.86213 7.32045 5.94839 7.32045ZM4.39641 0.778932C3.03909 1.22649 2.67266 3.3481 3.21085 3.93247C6.05603 4.34153 8.94397 4.34153 11.7891 3.93247C12.3273 3.3481 11.9609 1.22649 10.6036 0.778932C8.53479 0.739745 6.46598 0.739745 4.39717 0.778932H4.39641ZM12.7373 5.6849H11.2067C11.0563 5.6849 10.9051 5.82102 10.9051 5.95715V6.59996C10.9051 6.75602 11.0563 6.8722 11.2067 6.8722H12.7373C12.9098 6.8722 13.0388 6.75533 13.0388 6.59996V5.95715C13.0373 5.8855 13.005 5.81717 12.9488 5.76643C12.8926 5.71569 12.8168 5.68648 12.7373 5.6849ZM2.26347 5.6849H3.79332C3.96585 5.6849 4.09486 5.82102 4.09486 5.95715V6.59996C4.09486 6.75602 3.96509 6.8722 3.79332 6.8722H2.26271C2.18329 6.87045 2.10769 6.84116 2.05165 6.79044C1.99562 6.73972 1.96348 6.67149 1.96193 6.59996V5.95715C1.96193 5.82102 2.11308 5.6849 2.26347 5.6849Z" fill="#8D9A9F"/>
+                                                    </svg>
+                                                    25 мин.
+                                                </div>
+                                            </div>
+                                            <div class="item flex">
+                                                <div class="tit">Нахабино (МЦД-2)</div>
+                                                <div class="mark">
+                                                    <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path opacity="0.5" d="M5.56319 8.04878L6.61842 10.1185C6.77231 10.4205 6.63161 10.7905 6.28866 10.9404C6.20689 10.9754 6.11834 10.9954 6.02806 10.9993C5.93779 11.0032 5.84757 10.9908 5.76254 10.963C5.67751 10.9351 5.59935 10.8923 5.53252 10.837C5.46568 10.7816 5.41149 10.7149 5.37302 10.6405L4.3046 8.58072C4.19169 8.35176 4.11046 8.11095 4.06277 7.8638C4.13972 7.80681 4.22765 7.72582 4.3046 7.65583C4.73768 7.27487 5.18176 6.88092 5.24552 6.82292L5.2708 6.79993L5.4115 7.59783C5.43678 7.74781 5.48734 7.8988 5.56319 8.04878ZM6.93719 4.98414C7.00567 5.10732 7.01871 5.24991 6.97357 5.38169C6.92843 5.51346 6.82864 5.62407 6.69537 5.69006C6.61206 5.7269 6.52088 5.7467 6.42826 5.74805C6.32703 5.74809 6.22765 5.72343 6.14046 5.67665C6.05327 5.62988 5.98146 5.56269 5.93252 5.48208L5.65222 5.01914C5.4525 4.70384 5.19953 4.41906 4.90256 4.17524C4.94104 4.5452 5.00369 4.97315 5.03007 5.22711C5.09273 5.74705 5.22023 6.11701 4.852 6.44197C4.72449 6.55696 3.07129 8.02578 3.07129 8.02578C2.89792 8.18165 2.77476 8.37771 2.71514 8.59271L2.20731 10.5245C2.16979 10.6587 2.08459 10.778 1.96494 10.8637C1.84528 10.9494 1.69787 10.9968 1.54559 10.9984C1.48986 10.9964 1.43455 10.9887 1.38071 10.9754C1.29298 10.9565 1.21022 10.922 1.13715 10.874C1.06408 10.826 1.00214 10.7653 0.954873 10.6955C0.907605 10.6256 0.875936 10.548 0.861677 10.467C0.847419 10.386 0.850851 10.3033 0.871777 10.2235L1.3928 8.30375C1.50823 7.85985 1.75981 7.45487 2.11828 7.13589L3.00863 6.34898L2.55026 4.37122C2.24365 4.71758 1.87902 5.01789 1.46974 5.26111L0.884967 5.60907C0.822766 5.64736 0.752741 5.67389 0.679049 5.68708C0.605358 5.70027 0.529504 5.69986 0.455991 5.68587C0.382477 5.67189 0.312803 5.6446 0.251107 5.60564C0.18941 5.56668 0.136948 5.51685 0.0968367 5.45909C0.0545682 5.40247 0.0252602 5.3387 0.0106588 5.27156C-0.00394249 5.20442 -0.00353836 5.1353 0.0118471 5.06831C0.0272326 5.00132 0.0572847 4.93783 0.100213 4.88163C0.143141 4.82543 0.198067 4.77766 0.261718 4.74117L0.846495 4.39421C1.17626 4.19824 1.45655 3.95427 1.69838 3.6773C2.51179 2.72941 2.71514 2.61343 2.99544 2.60243L3.93636 2.54443C4.13972 2.54443 4.34307 2.60243 4.78825 2.8214C5.57635 3.21459 6.22465 3.80431 6.6569 4.5212L6.93719 4.98414ZM3.42303 2.28346C3.09113 2.31635 2.75846 2.22795 2.49821 2.03772C2.23795 1.84748 2.07144 1.571 2.03529 1.26909C1.99914 0.967173 2.09632 0.664562 2.30545 0.427826C2.51458 0.191089 2.81853 0.0396188 3.15043 0.0067359C3.48233 -0.026147 3.815 0.0622513 4.07526 0.252484C4.33551 0.442717 4.50203 0.719202 4.53818 1.02112C4.57433 1.32303 4.47715 1.62564 4.26802 1.86237C4.05889 2.09911 3.75494 2.25058 3.42303 2.28346Z" fill="#212121"/>
+                                                    </svg>                                                
+                                                    15 мин.
+                                                </div>
+                                            </div>
+                                    	</div>
+                                    </div><!-- .item -->
+                                    
+                                    <div class="items">
+                                    	<h4>Застройщик</h4>
+                                        <div class="tit-developer">ООО «Град»</div>
+                                    </div><!-- .item -->
+                                    
+                                    <div class="items table">
+                                        <table>
+                                        	<tr class="tr-header">
+                                            	<th>
+                                                	<div class="tit">Срок сдачи</div>
+                                                </th>
+                                                <th>
+                                                	<div class="tit">Класс ЖК</div>
+                                                </th>
+                                                <th>
+                                                	<div class="tit">Этажность</div>
+                                                </th>
+                                                <th>
+                                                	<div class="tit">Паркинг</div>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                            	<td>
+                                                	<div class="tit">Срок сдачи</div>
+                                                    <div class="info">
+                                                    	<p>II кв. 2016 г. - IV кв. 2022 г.</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                	<div class="tit">Класс ЖК</div>
+                                                    <div class="info">
+                                                    	<p>Комфорт</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                	<div class="tit">Этажность</div>
+                                                    <div class="info">
+                                                    	<p>7-8</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                	<div class="tit">Паркинг</div>
+                                                    <div class="info">
+                                                    	<p>наземный</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div><!-- .item -->
+                                </div><!-- .about__text -->
+                                
+                                <div class="about__slider">
+                                	<div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                            	<div class="slider-item">
+                                                    <div class="txt">
+                                                        <h4>Видео о проекте</h4>
+                                                    </div>
+                                                    <div class="video">
+                                                        <video id="video-1" src="assets/images/video.mp4" class="video__video"></video>
+                                                        <button type="button" id="play-1" class="video__play">
+                                                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M32.8785 22.4024C33.941 23.2025 33.941 24.7975 32.8785 25.5976L3.70313 47.5686C2.38515 48.5611 0.5 47.6208 0.5 45.9709L0.5 2.02905C0.5 0.379154 2.38516 -0.561115 3.70313 0.431406L32.8785 22.4024Z" fill="#E1E6EE"/>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .swiper-slide -->
+                                            <div class="swiper-slide">
+                                                <div class="slider-item">
+                                                    <div class="txt">
+                                                        <h4>Видео о проекте</h4>
+                                                    </div>
+                                                    <div class="video">
+                                                        <video id="video-2" src="assets/images/video.mp4" class="video__video"></video>
+                                                        <button type="button" id="play-2" class="video__play">
+                                                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M32.8785 22.4024C33.941 23.2025 33.941 24.7975 32.8785 25.5976L3.70313 47.5686C2.38515 48.5611 0.5 47.6208 0.5 45.9709L0.5 2.02905C0.5 0.379154 2.38516 -0.561115 3.70313 0.431406L32.8785 22.4024Z" fill="#E1E6EE"/>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .swiper-slide -->
+                                            <div class="swiper-slide">
+                                                <div class="slider-item">
+                                                    <div class="txt">
+                                                        <h4>Видео о проекте</h4>
+                                                    </div>
+                                                    <div class="video">
+                                                        <video id="video-3" src="assets/images/video.mp4" class="video__video"></video>
+                                                        <button type="button" id="play-3" class="video__play">
+                                                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M32.8785 22.4024C33.941 23.2025 33.941 24.7975 32.8785 25.5976L3.70313 47.5686C2.38515 48.5611 0.5 47.6208 0.5 45.9709L0.5 2.02905C0.5 0.379154 2.38516 -0.561115 3.70313 0.431406L32.8785 22.4024Z" fill="#E1E6EE"/>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .swiper-slide -->
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <script>
+                                        var swiper = new Swiper('.about__slider .swiper-container', {
+                                            pagination: {
+                                                el: '.about__slider .swiper-pagination',
+                                                clickable: true,
+                                            },
+                                        });
+                                    </script>
+                                </div><!-- .about__slider -->
+                            </div>
+                        </div><!-- /about -->
+                        
+                        <div class="in-stock section">
+                        	<div class="section__title">
+                                <h3>В продаже</h3>
+                            </div>
+                            <div class="table-row">
+                                <div class="table">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="#" class="type">Студии</a>
+                                                <div class="value">25</div>
+                                            </td>
+                                            <td>
+                                                <div class="value">24,68 – 31,78 м2</div>
+                                            </td>
+                                            <td>
+                                                <div class="value price">3,0 – 4,3 млн. руб.</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#" class="type">1-комнатные</a>
+                                                <div class="value">53</div>
+                                            </td>
+                                            <td>
+                                                <div class="value">34,75 – 39,61 м2</div>
+                                            </td>
+                                            <td>
+                                                <div class="value price">3,8 – 4,7 млн. руб.</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#" class="type">2-комнатные</a>
+                                                <div class="value">36</div>
+                                            </td>
+                                            <td>
+                                                <div class="value">47,25 – 55,67 м2</div>
+                                            </td>
+                                            <td>
+                                                <div class="value price">4,7 – 6,2 млн. руб.</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#" class="type">3-комнатные</a>
+                                                <div class="value">24</div>
+                                            </td>
+                                            <td>
+                                                <div class="value">74,14 – 80,29 м2</div>
+                                            </td>
+                                            <td>
+                                                <div class="value price">6,7 – 7,6 млн. руб.</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="table">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="#" class="type">Коммерческие</a>
+                                                <div class="value">11</div>
+                                            </td>
+                                            <td>
+                                                <div class="value">56,6 – 479,74 м2</div>
+                                            </td>
+                                            <td>
+                                                <div class="value price">6,3 – 50,7 млн. руб.</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <a href="#" class="btn">Выбрать квартиру</a>
+                        </div><!-- /in-stock -->
+                        
+                        <div class="about-page__info section">
+                        	<div class="section__title flex">
+                                <h3>Информация о ЖК</h3>
+                                <a href="#">Перейти на сайт жк <span>→</span> </a>
+                            </div>
+                            <div class="text">
+                            	<p>Мкр. «Красногорский» - это готовый семейный микрорайон с собственной инфраструктурой, расположенный на северо-западе, в одном из самых живописных уголков ближнего Подмосковья, всего в 14 км от МКАД. На территории микрорайона есть все необходимое для жизни: открыты продуктовые и хозяйственные магазины, салоны красоты и развивающие центры. В жилом комплексе есть развивающие центры и детские сады, идет строительство нового здания сада, а скоро начнется создание современной школы на 900 мест. Дома первой очереди, полностью готовы, сданы и заселены. Идет активное строительство здания Детского сада и новых корпусов, которые находятся на высокой стадии готовности.</p>
+                            </div>
+                        </div><!-- /about-page__info -->
+                        
+                        <div class="about-page__map section">
+                        	<div class="section__title flex">
+                                <h3>На карте</h3>
+                            </div>
+                            <div class="map">
+                            	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aff85b3c8a537d4da4635085d7110da74295a7c7d3bc0adddbb329b8526cbcf64&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div><!-- /about-page__map -->
+                        
+                        <div class="best-apartment section">
+                        	<div class="section__title flex">
+                                <h3>Лучшие квартиры</h3>
+                            </div>
+                            <div class="apartment-slider">
+                                <div class="apartment-row">
+                                    <div class="apartment__card">
+                                        <div class="apartmen__img">
+                                            <img src="assets/images/img_8.jpg" alt=""/>
+                                            <div class="apartmen__price">32,000.000</div>
+                                        </div>
+                                        <div class="apartmen__description">
+                                            <div class="apartmen__name"><h3>1-комнатная картира, 42 м2</h3></div>
+                                            <div class="apartmen__info">
+                                            	<table>
+                                                	<tr>
+                                                        <td>
+                                                        <div class="tit">Корпус </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">123</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Секция </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">3</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Этаж </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">8</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Номер </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">153</div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="apartmen__link"></a>
+                                    </div><!-- .apartment -->
+                                    <div class="apartment__card">
+                                        <div class="apartmen__img">
+                                            <img src="assets/images/img_8.jpg" alt=""/>
+                                            <div class="apartmen__price">32,000.000</div>
+                                        </div>
+                                        <div class="apartmen__description">
+                                            <div class="apartmen__name"><h3>1-комнатная картира, 42 м2</h3></div>
+                                            <div class="apartmen__info">
+                                            	<table>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Корпус </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">123</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Секция </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">3</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Этаж </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">8</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Номер </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">153</div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="apartmen__link"></a>
+                                    </div><!-- .apartment -->
+                                    <div class="apartment__card">
+                                        <div class="apartmen__img">
+                                            <img src="assets/images/img_8.jpg" alt=""/>
+                                            <div class="apartmen__price">32,000.000</div>
+                                        </div>
+                                        <div class="apartmen__description">
+                                            <div class="apartmen__name"><h3>1-комнатная картира, 42 м2</h3></div>
+                                            <div class="apartmen__info">
+                                            	<table>
+                                                	<tr>
+                                                        <td>
+                                                        <div class="tit">Корпус </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">123</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Секция </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">3</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Этаж </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">8</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="tit">Номер </div>
+                                                        </td>
+                                                        <td>
+                                                        <div class="value">153</div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="apartmen__link"></a>
+                                    </div><!-- .apartment -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="all-cards"><a href="#">ВСЕ КВАРТИРЫ</a></div>
+                        </div><!-- /best-apartment -->
+                        
+                    </div><!-- .container -->
+                </section>
+            </main>
+    
+            <footer class="footer page__footer">
+                <div class="footer__top container">
+                	<div class="footer__row">
+                    	<ul class="footer__menu">
+                        	<li class="tit">Юни.ру</li>
+                            <li><a href="#">Купить</a></li>
+                            <li><a href="#">Ипотека</a></li>
+                            <li><a href="#">Трейд ин</a></li>
+                            <li><a href="#">Переуступка</a></li>
+                            <li><a href="#">Журнал</a></li>
+                        </ul>
+                        <ul class="footer__contacts">
+                        	<li class="tit">Контакты</li>
+                            <li><a href="tel:+88002003000">+8800 200 3000</a></li>
+                            <li><a href="mailto:uni@mail.com">uni@mail.com</a></li>
+                        </ul>
+                    </div>
+                </div><!-- .container -->
+                <div class="footer__hr"></div>
+                <div class="footer__bottom container">
+                	<div class="footer__row">
+                    	<ul class="footer__politics">
+                            <li><a href="#">Условия пользования</a></li>
+                            <li>|</li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                        <ul class="social-networks footer__social-networks">
+                            <li><a href="#" class="inst"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.5123 0.00351689C11.2163 0.00338404 10.942 0.00326094 10.687 0.00366003V0C7.95883 0.00305001 7.43552 0.0213499 6.08516 0.0823496C4.65795 0.147924 3.88305 0.385823 3.36706 0.587122C2.68395 0.85308 2.19601 1.17028 1.68368 1.68268C1.17135 2.19507 0.853581 2.68307 0.588267 3.36626C0.387908 3.88232 0.14943 4.65702 0.0841688 6.08441C0.0140281 7.6277 0 8.08886 0 11.9983C0 15.9078 0.0140281 16.3714 0.0841688 17.9147C0.149125 19.3421 0.387908 20.1168 0.588267 20.6322C0.854191 21.3157 1.17135 21.8025 1.68368 22.3149C2.19601 22.8273 2.68395 23.1445 3.36706 23.4098C3.88335 23.6102 4.65795 23.8487 6.08516 23.9146C7.62826 23.9848 8.09149 24 12.0002 24C15.9085 24 16.3721 23.9848 17.9151 23.9146C19.3424 23.8493 20.1176 23.6114 20.6329 23.4101C21.3164 23.1448 21.8028 22.8276 22.3151 22.3152C22.8274 21.8031 23.1452 21.3166 23.4105 20.6334C23.6109 20.118 23.8494 19.3433 23.9146 17.9159C23.9848 16.3726 24 15.909 24 12.002C24 8.09496 23.9848 7.63136 23.9146 6.08807C23.8497 4.66068 23.6109 3.88598 23.4105 3.37053C23.1446 2.68734 22.8274 2.19934 22.3151 1.68694C21.8031 1.17455 21.3161 0.85735 20.6329 0.592001C20.117 0.391618 19.3424 0.153109 17.9151 0.0878395C16.3717 0.01769 15.9085 0.00366003 12.0002 0.00366003L11.5123 0.00351689ZM16.8794 12.005C16.8794 9.3097 14.6947 7.125 12.0001 7.125C9.30515 7.125 7.12073 9.3097 7.12073 12.005C7.12073 14.6999 9.30515 16.8849 12.0001 16.8849C14.6947 16.8849 16.8794 14.6999 16.8794 12.005ZM19.813 2.43518C18.8433 2.43518 18.0565 3.22116 18.0565 4.19136C18.0565 5.16125 18.8433 5.94815 19.813 5.94815C20.7828 5.94815 21.5696 5.16125 21.5696 4.19136C21.5696 3.22147 20.7828 2.43457 19.813 2.43457V2.43518ZM4.48294 12.0055C4.48294 7.85367 7.84858 4.48747 11.9998 4.4873C16.1512 4.4873 19.5161 7.85357 19.5161 12.0055C19.5161 16.1575 16.1515 19.5222 12.0001 19.5222C7.84875 19.5222 4.48294 16.1575 4.48294 12.0055Z" fill="#E0E0E0"/></svg></a></li>
+                            <li><a href="#" class="facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.4844 0H3.51562C1.57727 0 0 1.57727 0 3.51562V20.4844C0 22.4227 1.57727 24 3.51562 24H10.5938V15.5156H7.78125V11.2969H10.5938V8.4375C10.5938 6.11115 12.4861 4.21875 14.8125 4.21875H19.0781V8.4375H14.8125V11.2969H19.0781L18.375 15.5156H14.8125V24H20.4844C22.4227 24 24 22.4227 24 20.4844V3.51562C24 1.57727 22.4227 0 20.4844 0Z" fill="#E0E0E0"/></svg></a></li>
+                            <li><a href="#" class="twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 0C1.79086 0 0 1.79086 0 4V20C0 22.2091 1.79086 24 4 24H20C22.2091 24 24 22.2091 24 20V4C24 1.79086 22.2091 0 20 0H4ZM17.837 8.44328C18.4703 8.36978 19.0744 8.20854 19.6364 7.96706C19.2162 8.57377 18.6847 9.10699 18.0726 9.53446C18.0784 9.66495 18.082 9.79469 18.082 9.92669C18.082 13.9292 14.9305 18.5459 9.1669 18.5459C7.39739 18.5459 5.75002 18.0434 4.36364 17.1847C4.60863 17.2125 4.85799 17.2267 5.11099 17.2267C6.57952 17.2267 7.93028 16.743 9.0026 15.9308C7.63148 15.9061 6.4741 15.0294 6.07571 13.8272C6.26691 13.8617 6.4632 13.8797 6.66531 13.8797C6.95029 13.8797 7.228 13.8437 7.49045 13.7747C6.05681 13.4965 4.97722 12.2725 4.97722 10.8049V10.7659C5.40033 10.9931 5.88306 11.1289 6.39632 11.1454C5.55591 10.6024 5.00267 9.67395 5.00267 8.62402C5.00267 8.0683 5.15679 7.54859 5.4265 7.10086C6.9721 8.933 9.28104 10.1389 11.8851 10.2657C11.8313 10.0444 11.8037 9.81269 11.8037 9.57496C11.8037 7.90256 13.2075 6.5459 14.9378 6.5459C15.8385 6.5459 16.6535 6.91338 17.2242 7.50284C17.9381 7.36635 18.6084 7.11436 19.2147 6.76788C18.9806 7.47434 18.4841 8.0683 17.837 8.44328Z" fill="#E0E0E0"/></svg></a></li>
+                        </ul>
+                    </div>
+                </div><!-- .container -->
+            </footer>
+            
+        </div><!-- End .page -->
+        
+       <div class="modal fade feedback-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Заказать обратный звонок</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect y="3" width="4" height="24" rx="0.5" transform="rotate(-45 0 3)" fill="#8D9A9F"/>
+								<rect x="17" width="4" height="24" rx="0.5" transform="rotate(45 17 0)" fill="#8D9A9F"/>
+							</svg>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Оставьте нам свой номер телефона и мы Вас проконсультируем!</p>
+                        <form>
+                        	<input class="form-control" type="text" placeholder="Имя">
+                            <input class="form-control" type="tel" placeholder="Телефон">
+                            <button class="btn form__btn" type="button">Оставить заявку</button>
+                        </form>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div>     
+         
+       <script>
+	   	// VIDEO 
+			// 1
+			var videoElem = document.getElementById('video-1');
+			var playElem = document.getElementById('play-1');
+			
+			playElem.onclick = function() {
+			  if (videoElem.paused) {
+				videoElem.setAttribute("controls","controls")  ;
+				videoElem.play(); 			
+				playElem.classList.add('pnone');
+				
+			  }
+			};
+			
+			// 2
+			var videoElem2 = document.getElementById('video-2');
+			var playElem2 = document.getElementById('play-2');
+			
+			playElem2.onclick = function() {
+			  if (videoElem2.paused) {
+				videoElem2.setAttribute("controls","controls")  ;
+				videoElem2.play(); 			
+				playElem2.classList.add('pnone');
+				
+			  }
+			};
+			
+			// 3
+			var videoElem3 = document.getElementById('video-3');
+			var playElem3 = document.getElementById('play-3');
+			
+			playElem3.onclick = function() {
+			  if (videoElem3.paused) {
+				videoElem3.setAttribute("controls","controls")  ;
+				videoElem3.play(); 			
+				playElem3.classList.add('pnone');
+				
+			  }
+			};
+	   </script> 
+	   <script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Uni.ru</title>
+    <meta name="description" content="Новостройки Санкт-петербурга"> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" /> 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap-select.min.js"></script>
+    
+    <script src="assets/js/swiper.min.js"></script>
+
+	<script src="assets/js/aos.js"></script>  
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css" /> 
+   
+</head>
+	<body>
+       
+		<div id="preloader" class="preloader">
+            <div class="logo header__logo">
+                <a href="#"><img src="assets/images/logo.svg" alt=""/></a>
+            </div>
+            <div class="loader">
+                <div class="loader__bar"></div>
+            </div>
+        </div><!--/preloader-->
+        
+        <div class="page">
+            <header class="header page__header">
+                <div class="container">
+                    <div class="flex flex_j_space-between">
+                    	<div class="logo header__logo">
+                            <a href="#"><img src="assets/images/logo.svg" alt=""/></a>
+                        </div>
+                        <nav class="nav header__nav">
+                            <div class="trigger-menu">
+                                <div class="hamburger-menu">
+                                    <div class="hamburger-menu__bar"></div>
+                                    <div class="hamburger-menu__bar"></div>
+                                    <div class="hamburger-menu__bar"></div>
+                                </div>
+                            </div>
+                            <ul class="menu header__menu">
+                                <li class="menu__item"><a href="#" class="menu__link">Купить</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Ипотека</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Трейд ин</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Переуступка</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Журнал</a></li>
+                            </ul>
+                        </nav>
+                        <div class="contacts header__contacts">
+                            <a href="tel:+88002003000">+ 8800 200 3000</a>
+                        </div>
+                    </div>
+                </div><!-- .container -->
+            </header>
+            
+            <main class="page__main">
+            	<section class="section banner index-banner main__banner">
+                	<div class="container">
+                    	<h1><span class="text_color_green">Новостройки</span> Санкт-петербурга</h1>
+                        <div class="search banner__search">
+                        	 <form>
+                                <div class="form__row">
+                                    <div class="form-group">
+                                        <label>Расположение</label>
+                                        <input class="form-control" type="text" placeholder="Район, адрес, метро, жк">
+                                    </div>
+                                    <div class="form-group form-select">
+                                        <label>Количество комнат</label>
+                                        <select class="selectpicker">
+                                            <option>любое</option>
+                                            <option>1 комната</option>
+                                            <option>2 комнаты</option>
+                                            <option>3 комнаты</option>
+                                            <option>4 комнаты</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group form-select">
+                                        <label>Площадь</label>
+                                        <select class="selectpicker">
+                                            <option>любая</option>
+                                            <option>40 м<sup>2</sup></option>
+                                            <option>50 м<sup>2</sup></option>
+                                            <option>60 м<sup>2</sup></option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group form-select border-0">
+                                        <label>Цена</label>
+                                        <select class="selectpicker">
+                                            <option>от - до</option>
+                                            <option>10 000$ - 30 000$</option>
+                                            <option>31 000$ - 45 000$</option>
+                                            <option>46 000$ - 80 000$</option>
+                                            <option>от 81 000$</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn form__btn" type="button">Поиск</button>
+                                </div>
+							</form>
+                        </div><!-- search -->
+                        
+                        <div class="map-link">
+                        	<a href="#">
+                                На карте
+                                <svg width="43" height="48" viewBox="0 0 43 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M21.037 -1.90735e-05C32.6555 -1.90735e-05 42.0741 9.31724 42.0741 20.8107C42.0741 29.6297 34.148 36.5635 26.6881 43.0896C25.0485 44.5239 23.4314 45.9386 21.9259 47.3493C20.9681 48.2467 20.5675 48.1865 19.5555 47.3493C19.2063 47.0604 18.8558 46.771 18.5045 46.481C9.48267 39.0333 0 31.2052 0 20.8107C0 9.31724 9.4186 -1.90735e-05 21.037 -1.90735e-05ZM21.037 25.4815C25.128 25.4815 28.4444 22.1651 28.4444 18.0741C28.4444 13.9831 25.128 10.6667 21.037 10.6667C16.946 10.6667 13.6296 13.9831 13.6296 18.0741C13.6296 22.1651 16.946 25.4815 21.037 25.4815Z" fill="#00B289"/>
+								</svg>
+							</a>
+                        </div>
+                    </div><!-- .container -->
+                </section>
+                
+                <section class="section advantages index__advantages">
+                	<div class="container">
+                    	<div class="section__title" data-aos="fade-up">
+                        	<h2>Наши преимущества</h2>
+                        </div>
+                    </div><!-- .container -->
+                    <div class="description-row">
+                        <div class="description-row__text">
+                            <div class="item" data-aos="fade-right">
+                                <div class="number-circle">1</div>
+                                <div class="txt">
+                                    <p>Безопасность сделки при покупке, поскольку юни.ру контролирует передачу средств</p>
+                                </div>
+                            </div>
+                            <div class="item" data-aos="fade-right" data-aos-delay="200">
+                                <div class="number-circle">2</div>
+                                <div class="txt">
+                                    <p>Быстрая связь с нужными застройщиками и помощь в оформлении документов</p>
+                                </div>
+                            </div>
+                            <div class="item" data-aos="fade-right" data-aos-delay="400">
+                                <div class="number-circle">3</div>
+                                <div class="txt">
+                                    <p>Обеспечиваются прозрачность и строгий контроль всех финансовых поступлений</p>
+                                </div>
+                            </div>
+                            <button type="button" class="btn-modal btn_size_small" data-toggle="modal" data-target=".feedback-modal">Оставить заявку</button>
+                        </div>
+                        <div class="description-row__img" data-aos="fade-left">
+                            <img src="assets/images/img_1.jpg" alt=""/>
+                        </div>
+                    </div>
+                    
+                </section>
+                
+                <section class="section offers index__offers">
+                	<div class="container">
+                    	<div class="section__title" data-aos="fade-up">
+                        	<h2>Лучшие предложения</h2>
+                        </div>
+                        <div class="products-slider">
+                            <div class="products-row">
+                                <div class="products__card" data-aos="fade-up" data-aos-delay="0">
+                                    <div class="products__img"><img src="assets/images/img_2.jpg" alt=""/></div>
+                                    <div class="products__description">
+                                        <div class="products__name"><h3>Название жк</h3></div>
+                                        <div class="products__price">от 4,7 млн ₽</div>
+                                        <div class="products__address">Москва, СВАО,<br/> Лосиноостровская улица вл45</div> 
+                                        <div class="products__metro"><span class="circle circle_bg_green"></span>Метро</div>
+                                    </div>
+                                    <a href="#" class="products__link"></a>
+                                </div><!-- .products -->
+                                <div class="products__card" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="products__img"><img src="assets/images/img_2.jpg" alt=""/></div>
+                                    <div class="products__description">
+                                        <div class="products__name"><h3>Название жк</h3></div>
+                                        <div class="products__price">от 4,7 млн ₽</div>
+                                        <div class="products__address">Москва, СВАО,<br/> Лосиноостровская улица вл45</div> 
+                                        <div class="products__metro"><span class="circle circle_bg_green"></span>Метро</div>
+                                    </div>
+                                    <a href="#" class="products__link"></a>
+                                </div><!-- .products -->
+                                <div class="products__card" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="products__img"><img src="assets/images/img_2.jpg" alt=""/></div>
+                                    <div class="products__description">
+                                        <div class="products__name"><h3>Название жк</h3></div>
+                                        <div class="products__price">от 4,7 млн ₽</div>
+                                        <div class="products__address">Москва,СВАО, <br/>Лосиноостровская улица вл45</div> 
+                                        <div class="products__metro"><span class="circle circle_bg_green"></span>Метро</div>
+                                    </div>
+                                    <a href="#" class="products__link"></a>
+                                </div><!-- .products -->
+                                <div class="products__card" data-aos="fade-up" data-aos-delay="0">
+                                    <div class="products__img"><img src="assets/images/img_2.jpg" alt=""/></div>
+                                    <div class="products__description">
+                                        <div class="products__name"><h3>Название жк</h3></div>
+                                        <div class="products__price">от 4,7 млн ₽</div>
+                                        <div class="products__address">Москва, СВАО,<br/> Лосиноостровская улица вл45</div> 
+                                        <div class="products__metro"><span class="circle circle_bg_green"></span>Метро</div>
+                                    </div>
+                                    <a href="#" class="products__link"></a>
+                                </div><!-- .products -->
+                                <div class="products__card" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="products__img"><img src="assets/images/img_2.jpg" alt=""/></div>
+                                    <div class="products__description">
+                                        <div class="products__name"><h3>Название жк</h3></div>
+                                        <div class="products__price">от 4,7 млн ₽</div>
+                                        <div class="products__address">Москва, СВАО, <br/>Лосиноостровская улица вл45</div> 
+                                        <div class="products__metro"><span class="circle circle_bg_green"></span>Метро</div>
+                                    </div>
+                                    <a href="#" class="products__link"></a>
+                                </div><!-- .products -->
+                                <div class="products__card" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="products__img"><img src="assets/images/img_2.jpg" alt=""/></div>
+                                    <div class="products__description">
+                                        <div class="products__name"><h3>Название жк</h3></div>
+                                        <div class="products__price">от 4,7 млн ₽</div>
+                                        <div class="products__address">Москва, СВАО,<br/> Лосиноостровская улица вл45</div> 
+                                        <div class="products__metro"><span class="circle circle_bg_green"></span>Метро</div>
+                                    </div>
+                                    <a href="#" class="products__link"></a>
+                                </div><!-- .products -->
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="all-cards"><a href="#">Все предложения</a></div>
+                    </div><!-- .container -->
+                </section>
+                
+                
+                <section class="section popular index__popular">
+                	<div class="container">
+                    	<div class="section__title" data-aos="fade-up">
+                        	<h2>Популярные</h2>
+                        </div>
+                        <div class="popular-slider">
+                            <div class="popular-row">
+                                <div class="popular__card" data-aos="fade-up" data-aos-delay="0">
+                                    <div class="popular__img"><img src="assets/images/ico/mortgage.svg" alt=""/></div>
+                                    <div class="popular__description">
+                                        <div class="popular__name"><h3>Ипотека</h3></div>
+                                        <p>Рассчитайте платежи <br/>и оставьте заявку</p>
+                                    </div>
+                                </div><!-- .popular -->
+                                <div class="popular__card" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="popular__img"><img src="assets/images/ico/trade_in.svg" alt=""/></div>
+                                    <div class="popular__description">
+                                        <div class="popular__name"><h3>Трейд ин</h3></div>
+                                        <p>Поменяйте старую квартиру на новую</p>
+                                    </div>
+                                </div><!-- .popular -->
+                                <div class="popular__card" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="popular__img"><img src="assets/images/ico/calculate.svg" alt=""/></div>
+                                    <div class="popular__description">
+                                        <div class="popular__name"><h3>Калькулятор ипотеки</h3></div>
+                                        <p>Узнайте примерную рыночную стоимость </p>
+                                    </div>
+                                </div><!-- .popular -->
+                                <div class="popular__card" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="popular__img"><img src="assets/images/ico/exchange.svg" alt=""/></div>
+                                    <div class="popular__description">
+                                        <div class="popular__name"><h3>Переуступка</h3></div>
+                                        <p>Квартира по договору долевого участия</p>
+                                    </div>
+                                </div><!-- .popular -->
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div><!-- .container -->
+                </section>
+                
+                <section class="section magazine index__magazine">
+                	<div class="container">
+                    	<div class="section__title" data-aos="fade-up">
+                        	<h2>Журнал</h2>
+                        </div>
+                        <div class="magazine-slider">
+                            <div class="magazine-row">
+                                <div class="magazine__card" data-aos="fade-up" data-aos-delay="0">
+                                    <div class="magazine__img"><img src="assets/images/img_3.jpg" alt=""/></div>
+                                    <div class="magazine__description">
+                                        <div class="magazine__article">Недвижимость</div>
+                                        <div class="magazine__name"><a href="#">Как изменятся цены на московское жилье к началу 2021 года</a></div>
+                                        <p>Цены на жилье в Москве и Московской области продолжают расти</p>
+                                        <div class="magazine__date">
+											<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.07692 13V10.75H3.5V13H1.07692ZM4.03846 13V10.75H6.73077V13H4.03846ZM1.07692 10.25V7.75H3.5V10.25H1.07692ZM4.03846 10.25V7.75H6.73077V10.25H4.03846ZM1.07692 7.25V5H3.5V7.25H1.07692ZM7.26923 13V10.75H9.96154V13H7.26923ZM4.03846 7.25V5H6.73077V7.25H4.03846ZM10.5 13V10.75H12.9231V13H10.5ZM7.26923 10.25V7.75H9.96154V10.25H7.26923ZM4.30769 3.5C4.30769 3.63281 4.18149 3.75 4.03846 3.75H3.5C3.35697 3.75 3.23077 3.63281 3.23077 3.5V1.25C3.23077 1.11719 3.35697 1 3.5 1H4.03846C4.18149 1 4.30769 1.11719 4.30769 1.25V3.5ZM10.5 10.25V7.75H12.9231V10.25H10.5ZM7.26923 7.25V5H9.96154V7.25H7.26923ZM10.5 7.25V5H12.9231V7.25H10.5ZM10.7692 3.5C10.7692 3.63281 10.643 3.75 10.5 3.75H9.96154C9.81851 3.75 9.69231 3.63281 9.69231 3.5V1.25C9.69231 1.11719 9.81851 1 9.96154 1H10.5C10.643 1 10.7692 1.11719 10.7692 1.25V3.5ZM14 3C14 2.45313 13.512 2 12.9231 2H11.8462V1.25C11.8462 0.5625 11.2404 0 10.5 0H9.96154C9.22116 0 8.61539 0.5625 8.61539 1.25V2H5.38462V1.25C5.38462 0.5625 4.77885 0 4.03846 0H3.5C2.75962 0 2.15385 0.5625 2.15385 1.25V2H1.07692C0.487981 2 0 2.45313 0 3V13C0 13.5469 0.487981 14 1.07692 14H12.9231C13.512 14 14 13.5469 14 13V3Z" fill="#8D9A9F"/>
+                                            </svg>
+                                            20 декабря
+										</div>
+                                    </div>
+                                </div><!-- .magazine -->
+                                <div class="magazine__card" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="magazine__img"><img src="assets/images/img_4.jpg" alt=""/></div>
+                                    <div class="magazine__description">
+                                        <div class="magazine__article">Недвижимость</div>
+                                        <div class="magazine__name"><a href="#">Как изменятся цены на московское жилье к началу 2021 года</a></div>
+                                        <p>Цены на жилье в Москве и Московской области продолжают расти</p>
+                                        <div class="magazine__date">
+											<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.07692 13V10.75H3.5V13H1.07692ZM4.03846 13V10.75H6.73077V13H4.03846ZM1.07692 10.25V7.75H3.5V10.25H1.07692ZM4.03846 10.25V7.75H6.73077V10.25H4.03846ZM1.07692 7.25V5H3.5V7.25H1.07692ZM7.26923 13V10.75H9.96154V13H7.26923ZM4.03846 7.25V5H6.73077V7.25H4.03846ZM10.5 13V10.75H12.9231V13H10.5ZM7.26923 10.25V7.75H9.96154V10.25H7.26923ZM4.30769 3.5C4.30769 3.63281 4.18149 3.75 4.03846 3.75H3.5C3.35697 3.75 3.23077 3.63281 3.23077 3.5V1.25C3.23077 1.11719 3.35697 1 3.5 1H4.03846C4.18149 1 4.30769 1.11719 4.30769 1.25V3.5ZM10.5 10.25V7.75H12.9231V10.25H10.5ZM7.26923 7.25V5H9.96154V7.25H7.26923ZM10.5 7.25V5H12.9231V7.25H10.5ZM10.7692 3.5C10.7692 3.63281 10.643 3.75 10.5 3.75H9.96154C9.81851 3.75 9.69231 3.63281 9.69231 3.5V1.25C9.69231 1.11719 9.81851 1 9.96154 1H10.5C10.643 1 10.7692 1.11719 10.7692 1.25V3.5ZM14 3C14 2.45313 13.512 2 12.9231 2H11.8462V1.25C11.8462 0.5625 11.2404 0 10.5 0H9.96154C9.22116 0 8.61539 0.5625 8.61539 1.25V2H5.38462V1.25C5.38462 0.5625 4.77885 0 4.03846 0H3.5C2.75962 0 2.15385 0.5625 2.15385 1.25V2H1.07692C0.487981 2 0 2.45313 0 3V13C0 13.5469 0.487981 14 1.07692 14H12.9231C13.512 14 14 13.5469 14 13V3Z" fill="#8D9A9F"/>
+                                            </svg>
+                                            20 декабря
+										</div>
+                                    </div>
+                                </div><!-- .magazine -->
+                                <div class="magazine__card" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="magazine__img"><img src="assets/images/img_5.jpg" alt=""/></div>
+                                    <div class="magazine__description">
+                                        <div class="magazine__article">Недвижимость</div>
+                                        <div class="magazine__name"><a href="#">Как изменятся цены на московское жилье к началу 2021 года</a></div>
+                                        <p>Цены на жилье в Москве и Московской области продолжают расти</p>
+                                        <div class="magazine__date">
+											<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.07692 13V10.75H3.5V13H1.07692ZM4.03846 13V10.75H6.73077V13H4.03846ZM1.07692 10.25V7.75H3.5V10.25H1.07692ZM4.03846 10.25V7.75H6.73077V10.25H4.03846ZM1.07692 7.25V5H3.5V7.25H1.07692ZM7.26923 13V10.75H9.96154V13H7.26923ZM4.03846 7.25V5H6.73077V7.25H4.03846ZM10.5 13V10.75H12.9231V13H10.5ZM7.26923 10.25V7.75H9.96154V10.25H7.26923ZM4.30769 3.5C4.30769 3.63281 4.18149 3.75 4.03846 3.75H3.5C3.35697 3.75 3.23077 3.63281 3.23077 3.5V1.25C3.23077 1.11719 3.35697 1 3.5 1H4.03846C4.18149 1 4.30769 1.11719 4.30769 1.25V3.5ZM10.5 10.25V7.75H12.9231V10.25H10.5ZM7.26923 7.25V5H9.96154V7.25H7.26923ZM10.5 7.25V5H12.9231V7.25H10.5ZM10.7692 3.5C10.7692 3.63281 10.643 3.75 10.5 3.75H9.96154C9.81851 3.75 9.69231 3.63281 9.69231 3.5V1.25C9.69231 1.11719 9.81851 1 9.96154 1H10.5C10.643 1 10.7692 1.11719 10.7692 1.25V3.5ZM14 3C14 2.45313 13.512 2 12.9231 2H11.8462V1.25C11.8462 0.5625 11.2404 0 10.5 0H9.96154C9.22116 0 8.61539 0.5625 8.61539 1.25V2H5.38462V1.25C5.38462 0.5625 4.77885 0 4.03846 0H3.5C2.75962 0 2.15385 0.5625 2.15385 1.25V2H1.07692C0.487981 2 0 2.45313 0 3V13C0 13.5469 0.487981 14 1.07692 14H12.9231C13.512 14 14 13.5469 14 13V3Z" fill="#8D9A9F"/>
+                                            </svg>
+                                            20 декабря
+										</div>
+                                    </div>
+                                </div><!-- .magazine -->
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="all-cards"><a href="#">Пеерейти в журнал</a></div>
+                    </div><!-- .container -->
+                </section>
+                
+                
+            </main>
+    
+            <footer class="footer page__footer">
+                <div class="footer__top container">
+                	<div class="footer__row">
+                    	<ul class="footer__menu">
+                        	<li class="tit">Юни.ру</li>
+                            <li><a href="#">Купить</a></li>
+                            <li><a href="#">Ипотека</a></li>
+                            <li><a href="#">Трейд ин</a></li>
+                            <li><a href="#">Переуступка</a></li>
+                            <li><a href="#">Журнал</a></li>
+                        </ul>
+                        <ul class="footer__contacts">
+                        	<li class="tit">Контакты</li>
+                            <li><a href="tel:+88002003000">+8800 200 3000</a></li>
+                            <li><a href="mailto:uni@mail.com">uni@mail.com</a></li>
+                        </ul>
+                    </div>
+                </div><!-- .container -->
+                <div class="footer__hr"></div>
+                <div class="footer__bottom container">
+                	<div class="footer__row">
+                    	<ul class="footer__politics">
+                            <li><a href="#">Условия пользования</a></li>
+                            <li>|</li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                        <ul class="social-networks footer__social-networks">
+                            <li><a href="#" class="inst"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.5123 0.00351689C11.2163 0.00338404 10.942 0.00326094 10.687 0.00366003V0C7.95883 0.00305001 7.43552 0.0213499 6.08516 0.0823496C4.65795 0.147924 3.88305 0.385823 3.36706 0.587122C2.68395 0.85308 2.19601 1.17028 1.68368 1.68268C1.17135 2.19507 0.853581 2.68307 0.588267 3.36626C0.387908 3.88232 0.14943 4.65702 0.0841688 6.08441C0.0140281 7.6277 0 8.08886 0 11.9983C0 15.9078 0.0140281 16.3714 0.0841688 17.9147C0.149125 19.3421 0.387908 20.1168 0.588267 20.6322C0.854191 21.3157 1.17135 21.8025 1.68368 22.3149C2.19601 22.8273 2.68395 23.1445 3.36706 23.4098C3.88335 23.6102 4.65795 23.8487 6.08516 23.9146C7.62826 23.9848 8.09149 24 12.0002 24C15.9085 24 16.3721 23.9848 17.9151 23.9146C19.3424 23.8493 20.1176 23.6114 20.6329 23.4101C21.3164 23.1448 21.8028 22.8276 22.3151 22.3152C22.8274 21.8031 23.1452 21.3166 23.4105 20.6334C23.6109 20.118 23.8494 19.3433 23.9146 17.9159C23.9848 16.3726 24 15.909 24 12.002C24 8.09496 23.9848 7.63136 23.9146 6.08807C23.8497 4.66068 23.6109 3.88598 23.4105 3.37053C23.1446 2.68734 22.8274 2.19934 22.3151 1.68694C21.8031 1.17455 21.3161 0.85735 20.6329 0.592001C20.117 0.391618 19.3424 0.153109 17.9151 0.0878395C16.3717 0.01769 15.9085 0.00366003 12.0002 0.00366003L11.5123 0.00351689ZM16.8794 12.005C16.8794 9.3097 14.6947 7.125 12.0001 7.125C9.30515 7.125 7.12073 9.3097 7.12073 12.005C7.12073 14.6999 9.30515 16.8849 12.0001 16.8849C14.6947 16.8849 16.8794 14.6999 16.8794 12.005ZM19.813 2.43518C18.8433 2.43518 18.0565 3.22116 18.0565 4.19136C18.0565 5.16125 18.8433 5.94815 19.813 5.94815C20.7828 5.94815 21.5696 5.16125 21.5696 4.19136C21.5696 3.22147 20.7828 2.43457 19.813 2.43457V2.43518ZM4.48294 12.0055C4.48294 7.85367 7.84858 4.48747 11.9998 4.4873C16.1512 4.4873 19.5161 7.85357 19.5161 12.0055C19.5161 16.1575 16.1515 19.5222 12.0001 19.5222C7.84875 19.5222 4.48294 16.1575 4.48294 12.0055Z" fill="#E0E0E0"/></svg></a></li>
+                            <li><a href="#" class="facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.4844 0H3.51562C1.57727 0 0 1.57727 0 3.51562V20.4844C0 22.4227 1.57727 24 3.51562 24H10.5938V15.5156H7.78125V11.2969H10.5938V8.4375C10.5938 6.11115 12.4861 4.21875 14.8125 4.21875H19.0781V8.4375H14.8125V11.2969H19.0781L18.375 15.5156H14.8125V24H20.4844C22.4227 24 24 22.4227 24 20.4844V3.51562C24 1.57727 22.4227 0 20.4844 0Z" fill="#E0E0E0"/></svg></a></li>
+                            <li><a href="#" class="twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 0C1.79086 0 0 1.79086 0 4V20C0 22.2091 1.79086 24 4 24H20C22.2091 24 24 22.2091 24 20V4C24 1.79086 22.2091 0 20 0H4ZM17.837 8.44328C18.4703 8.36978 19.0744 8.20854 19.6364 7.96706C19.2162 8.57377 18.6847 9.10699 18.0726 9.53446C18.0784 9.66495 18.082 9.79469 18.082 9.92669C18.082 13.9292 14.9305 18.5459 9.1669 18.5459C7.39739 18.5459 5.75002 18.0434 4.36364 17.1847C4.60863 17.2125 4.85799 17.2267 5.11099 17.2267C6.57952 17.2267 7.93028 16.743 9.0026 15.9308C7.63148 15.9061 6.4741 15.0294 6.07571 13.8272C6.26691 13.8617 6.4632 13.8797 6.66531 13.8797C6.95029 13.8797 7.228 13.8437 7.49045 13.7747C6.05681 13.4965 4.97722 12.2725 4.97722 10.8049V10.7659C5.40033 10.9931 5.88306 11.1289 6.39632 11.1454C5.55591 10.6024 5.00267 9.67395 5.00267 8.62402C5.00267 8.0683 5.15679 7.54859 5.4265 7.10086C6.9721 8.933 9.28104 10.1389 11.8851 10.2657C11.8313 10.0444 11.8037 9.81269 11.8037 9.57496C11.8037 7.90256 13.2075 6.5459 14.9378 6.5459C15.8385 6.5459 16.6535 6.91338 17.2242 7.50284C17.9381 7.36635 18.6084 7.11436 19.2147 6.76788C18.9806 7.47434 18.4841 8.0683 17.837 8.44328Z" fill="#E0E0E0"/></svg></a></li>
+                        </ul>
+                    </div>
+                </div><!-- .container -->
+            </footer>
+            
+        </div><!-- End .page -->
+       
+       
+       <div class="modal fade feedback-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Заказать обратный звонок</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect y="3" width="4" height="24" rx="0.5" transform="rotate(-45 0 3)" fill="#8D9A9F"/>
+								<rect x="17" width="4" height="24" rx="0.5" transform="rotate(45 17 0)" fill="#8D9A9F"/>
+							</svg>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Оставьте нам свой номер телефона и мы Вас проконсультируем!</p>
+                        <form>
+                        	<input class="form-control" type="text" placeholder="Имя">
+                            <input class="form-control" type="tel" placeholder="Телефон">
+                            <button class="btn form__btn" type="button">Оставить заявку</button>
+                        </form>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div>      
+	   <script src="assets/js/main.js"></script>
+	</body>
+</html>
